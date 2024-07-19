@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1416572C464D4E00445E97 /* Aviater_Sky_Dive_RecordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416562C464D4E00445E97 /* Aviater_Sky_Dive_RecordApp.swift */; };
+		5B14165B2C464D4F00445E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B14165A2C464D4F00445E97 /* Assets.xcassets */; };
+		5B14165E2C464D4F00445E97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B14165D2C464D4F00445E97 /* Preview Assets.xcassets */; };
+		5B1416652C4657F200445E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1416642C4657F200445E97 /* LaunchScreen.storyboard */; };
+		5B1416682C46594600445E97 /* WelcomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416672C46594600445E97 /* WelcomView.swift */; };
+		5B14166A2C465A0E00445E97 /* KumbhSans-VariableFont_YOPQ,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B1416692C465A0E00445E97 /* KumbhSans-VariableFont_YOPQ,wght.ttf */; };
+		5B14166E2C465CEE00445E97 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B14166D2C465CEE00445E97 /* DisclaimerView.swift */; };
+		5B1416702C465F6500445E97 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B14166F2C465F6500445E97 /* MenuView.swift */; };
+		5B1416722C46865700445E97 /* FlightModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416712C46865700445E97 /* FlightModeView.swift */; };
+		5B1416742C468FAC00445E97 /* PopUpFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416732C468FAC00445E97 /* PopUpFlight.swift */; };
+		5B1416762C46914E00445E97 /* FlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416752C46914E00445E97 /* FlightView.swift */; };
+		5B1416782C46956C00445E97 /* EndFlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416772C46956C00445E97 /* EndFlightView.swift */; };
+		5B14167A2C469B7100445E97 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416792C469B7100445E97 /* InfoView.swift */; };
+		5B14167C2C469DD100445E97 /* PostFlightSurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B14167B2C469DD100445E97 /* PostFlightSurveyView.swift */; };
+		5B14167F2C47E6DD00445E97 /* JumpType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B14167E2C47E6DD00445E97 /* JumpType.swift */; };
+		5B1416812C47E74800445E97 /* FlightOverall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416802C47E74800445E97 /* FlightOverall.swift */; };
+		5B1416832C47E7A800445E97 /* BodyPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416822C47E7A800445E97 /* BodyPosition.swift */; };
+		5B1416852C47E83300445E97 /* FlightLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416842C47E83300445E97 /* FlightLog.swift */; };
+		5B1416872C47EAC100445E97 /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416862C47EAC100445E97 /* FlightData.swift */; };
+		5B1416892C47ED7900445E97 /* PreFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416882C47ED7900445E97 /* PreFlight.swift */; };
+		5B14168B2C47EDA700445E97 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B14168A2C47EDA700445E97 /* Flight.swift */; };
+		5B14168D2C47EDCE00445E97 /* AfterFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B14168C2C47EDCE00445E97 /* AfterFlight.swift */; };
+		5B14168F2C47EFDA00445E97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B14168E2C47EFDA00445E97 /* ContentView.swift */; };
+		5B1416932C48069D00445E97 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416922C48069D00445E97 /* LocationManager.swift */; };
+		5B1416952C49070300445E97 /* FlightLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416942C49070300445E97 /* FlightLogView.swift */; };
+		5B1416972C493F3300445E97 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1416962C493F3300445E97 /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B1416532C464D4E00445E97 /* Aviater Sky Dive Record.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aviater Sky Dive Record.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1416562C464D4E00445E97 /* Aviater_Sky_Dive_RecordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aviater_Sky_Dive_RecordApp.swift; sourceTree = "<group>"; };
+		5B14165A2C464D4F00445E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B14165D2C464D4F00445E97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B1416642C4657F200445E97 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B1416672C46594600445E97 /* WelcomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomView.swift; sourceTree = "<group>"; };
+		5B1416692C465A0E00445E97 /* KumbhSans-VariableFont_YOPQ,wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumbhSans-VariableFont_YOPQ,wght.ttf"; sourceTree = "<group>"; };
+		5B14166C2C465A2700445E97 /* Aviater-Sky-Dive-Record-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Aviater-Sky-Dive-Record-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5B14166D2C465CEE00445E97 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		5B14166F2C465F6500445E97 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		5B1416712C46865700445E97 /* FlightModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightModeView.swift; sourceTree = "<group>"; };
+		5B1416732C468FAC00445E97 /* PopUpFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpFlight.swift; sourceTree = "<group>"; };
+		5B1416752C46914E00445E97 /* FlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightView.swift; sourceTree = "<group>"; };
+		5B1416772C46956C00445E97 /* EndFlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndFlightView.swift; sourceTree = "<group>"; };
+		5B1416792C469B7100445E97 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		5B14167B2C469DD100445E97 /* PostFlightSurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFlightSurveyView.swift; sourceTree = "<group>"; };
+		5B14167E2C47E6DD00445E97 /* JumpType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpType.swift; sourceTree = "<group>"; };
+		5B1416802C47E74800445E97 /* FlightOverall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightOverall.swift; sourceTree = "<group>"; };
+		5B1416822C47E7A800445E97 /* BodyPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPosition.swift; sourceTree = "<group>"; };
+		5B1416842C47E83300445E97 /* FlightLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLog.swift; sourceTree = "<group>"; };
+		5B1416862C47EAC100445E97 /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		5B1416882C47ED7900445E97 /* PreFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreFlight.swift; sourceTree = "<group>"; };
+		5B14168A2C47EDA700445E97 /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		5B14168C2C47EDCE00445E97 /* AfterFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterFlight.swift; sourceTree = "<group>"; };
+		5B14168E2C47EFDA00445E97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B1416922C48069D00445E97 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		5B1416942C49070300445E97 /* FlightLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLogView.swift; sourceTree = "<group>"; };
+		5B1416962C493F3300445E97 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1416502C464D4E00445E97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B14164A2C464D4E00445E97 = {
+			isa = PBXGroup;
+			children = (
+				5B1416552C464D4E00445E97 /* Aviater Sky Dive Record */,
+				5B1416542C464D4E00445E97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1416542C464D4E00445E97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1416532C464D4E00445E97 /* Aviater Sky Dive Record.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1416552C464D4E00445E97 /* Aviater Sky Dive Record */ = {
+			isa = PBXGroup;
+			children = (
+				5B14166C2C465A2700445E97 /* Aviater-Sky-Dive-Record-Info.plist */,
+				5B1416912C48068B00445E97 /* ViewModel */,
+				5B14167D2C47E6B500445E97 /* Model */,
+				5B1416562C464D4E00445E97 /* Aviater_Sky_Dive_RecordApp.swift */,
+				5B14166B2C465A1300445E97 /* Fonts */,
+				5B1416642C4657F200445E97 /* LaunchScreen.storyboard */,
+				5B14165A2C464D4F00445E97 /* Assets.xcassets */,
+				5B1416662C46593600445E97 /* View */,
+				5B14165C2C464D4F00445E97 /* Preview Content */,
+			);
+			path = "Aviater Sky Dive Record";
+			sourceTree = "<group>";
+		};
+		5B14165C2C464D4F00445E97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B14165D2C464D4F00445E97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B1416662C46593600445E97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B1416672C46594600445E97 /* WelcomView.swift */,
+				5B14166D2C465CEE00445E97 /* DisclaimerView.swift */,
+				5B14168E2C47EFDA00445E97 /* ContentView.swift */,
+				5B14166F2C465F6500445E97 /* MenuView.swift */,
+				5B1416792C469B7100445E97 /* InfoView.swift */,
+				5B1416712C46865700445E97 /* FlightModeView.swift */,
+				5B1416732C468FAC00445E97 /* PopUpFlight.swift */,
+				5B1416752C46914E00445E97 /* FlightView.swift */,
+				5B1416772C46956C00445E97 /* EndFlightView.swift */,
+				5B1416942C49070300445E97 /* FlightLogView.swift */,
+				5B14167B2C469DD100445E97 /* PostFlightSurveyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5B14166B2C465A1300445E97 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5B1416692C465A0E00445E97 /* KumbhSans-VariableFont_YOPQ,wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5B14167D2C47E6B500445E97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B14167E2C47E6DD00445E97 /* JumpType.swift */,
+				5B1416802C47E74800445E97 /* FlightOverall.swift */,
+				5B1416822C47E7A800445E97 /* BodyPosition.swift */,
+				5B1416882C47ED7900445E97 /* PreFlight.swift */,
+				5B14168A2C47EDA700445E97 /* Flight.swift */,
+				5B14168C2C47EDCE00445E97 /* AfterFlight.swift */,
+				5B1416842C47E83300445E97 /* FlightLog.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B1416912C48068B00445E97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5B1416922C48069D00445E97 /* LocationManager.swift */,
+				5B1416962C493F3300445E97 /* DataManager.swift */,
+				5B1416862C47EAC100445E97 /* FlightData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1416522C464D4E00445E97 /* Aviater Sky Dive Record */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1416612C464D4F00445E97 /* Build configuration list for PBXNativeTarget "Aviater Sky Dive Record" */;
+			buildPhases = (
+				5B14164F2C464D4E00445E97 /* Sources */,
+				5B1416502C464D4E00445E97 /* Frameworks */,
+				5B1416512C464D4E00445E97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aviater Sky Dive Record";
+			productName = "Aviater Sky Dive Record";
+			productReference = 5B1416532C464D4E00445E97 /* Aviater Sky Dive Record.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B14164B2C464D4E00445E97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5B1416522C464D4E00445E97 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 5B14164E2C464D4E00445E97 /* Build configuration list for PBXProject "Aviater Sky Dive Record" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B14164A2C464D4E00445E97;
+			productRefGroup = 5B1416542C464D4E00445E97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1416522C464D4E00445E97 /* Aviater Sky Dive Record */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1416512C464D4E00445E97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B14166A2C465A0E00445E97 /* KumbhSans-VariableFont_YOPQ,wght.ttf in Resources */,
+				5B1416652C4657F200445E97 /* LaunchScreen.storyboard in Resources */,
+				5B14165E2C464D4F00445E97 /* Preview Assets.xcassets in Resources */,
+				5B14165B2C464D4F00445E97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B14164F2C464D4E00445E97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1416782C46956C00445E97 /* EndFlightView.swift in Sources */,
+				5B1416702C465F6500445E97 /* MenuView.swift in Sources */,
+				5B1416952C49070300445E97 /* FlightLogView.swift in Sources */,
+				5B1416852C47E83300445E97 /* FlightLog.swift in Sources */,
+				5B1416872C47EAC100445E97 /* FlightData.swift in Sources */,
+				5B1416722C46865700445E97 /* FlightModeView.swift in Sources */,
+				5B1416572C464D4E00445E97 /* Aviater_Sky_Dive_RecordApp.swift in Sources */,
+				5B1416762C46914E00445E97 /* FlightView.swift in Sources */,
+				5B14167C2C469DD100445E97 /* PostFlightSurveyView.swift in Sources */,
+				5B14168F2C47EFDA00445E97 /* ContentView.swift in Sources */,
+				5B14168B2C47EDA700445E97 /* Flight.swift in Sources */,
+				5B14168D2C47EDCE00445E97 /* AfterFlight.swift in Sources */,
+				5B1416812C47E74800445E97 /* FlightOverall.swift in Sources */,
+				5B1416932C48069D00445E97 /* LocationManager.swift in Sources */,
+				5B1416832C47E7A800445E97 /* BodyPosition.swift in Sources */,
+				5B1416742C468FAC00445E97 /* PopUpFlight.swift in Sources */,
+				5B1416682C46594600445E97 /* WelcomView.swift in Sources */,
+				5B14167A2C469B7100445E97 /* InfoView.swift in Sources */,
+				5B14166E2C465CEE00445E97 /* DisclaimerView.swift in Sources */,
+				5B1416972C493F3300445E97 /* DataManager.swift in Sources */,
+				5B1416892C47ED7900445E97 /* PreFlight.swift in Sources */,
+				5B14167F2C47E6DD00445E97 /* JumpType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B14165F2C464D4F00445E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B1416602C464D4F00445E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B1416622C464D4F00445E97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aviater Sky Dive Record/Preview Content\"";
+				DEVELOPMENT_TEAM = JMRR2M76BP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aviater-Sky-Dive-Record-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UmniashaStudio.Aviater-Sky-Dive-Record";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5B1416632C464D4F00445E97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aviater Sky Dive Record/Preview Content\"";
+				DEVELOPMENT_TEAM = JMRR2M76BP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Aviater-Sky-Dive-Record-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UmniashaStudio.Aviater-Sky-Dive-Record";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B14164E2C464D4E00445E97 /* Build configuration list for PBXProject "Aviater Sky Dive Record" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B14165F2C464D4F00445E97 /* Debug */,
+				5B1416602C464D4F00445E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1416612C464D4F00445E97 /* Build configuration list for PBXNativeTarget "Aviater Sky Dive Record" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1416622C464D4F00445E97 /* Debug */,
+				5B1416632C464D4F00445E97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B14164B2C464D4E00445E97 /* Project object */;
+}
